@@ -1,6 +1,6 @@
 [
   { "username": "admin", "password": "123456", "role": "admin" },
-  {"username":"customer1","password":"c001FOBf","role":"customer"}
+  {"username":"customer1","password":"c001F2B1","role":"customer"},
   { "username": "customer2", "password": "c002l4PR", "role": "customer" },
   { "username": "customer3", "password": "c003WrWY", "role": "customer" },
   { "username": "customer4", "password": "c004nUQF", "role": "customer" },
