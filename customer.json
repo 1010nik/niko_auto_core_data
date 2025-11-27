@@ -1,53 +1,608 @@
 [
-  { "username": "admin", "password": "123456", "role": "admin" },
-  {"username":"customer1","password":"c001F2B1","role":"customer"},
-  { "username": "customer2", "password": "c002l4PR", "role": "customer" },
-  { "username": "customer3", "password": "c003WrWY", "role": "customer" },
-  { "username": "customer4", "password": "c004nUQF", "role": "customer" },
-  { "username": "customer5", "password": "c005EpeH", "role": "customer" },
-  { "username": "customer6", "password": "c006vR3h", "role": "customer" },
-  { "username": "customer7", "password": "c007Yf4W", "role": "customer" },
-  { "username": "customer8", "password": "c008TXc1", "role": "customer" },
-  { "username": "customer9", "password": "c009Zn6p", "role": "customer" },
-  { "username": "customer10", "password": "c010Vq2E", "role": "customer" },
-  { "username": "customer11", "password": "c011bX7M", "role": "customer" },
-  { "username": "customer12", "password": "c012rX1y", "role": "customer" },
-  { "username": "customer13", "password": "c013hP3G", "role": "customer" },
-  { "username": "customer14", "password": "c014sD6L", "role": "customer" },
-  { "username": "customer15", "password": "c015Jz4A", "role": "customer" },
-  { "username": "customer16", "password": "c016yN5v", "role": "customer" },
-  { "username": "customer17", "password": "c017Kf8J", "role": "customer" },
-  { "username": "customer18", "password": "c018Zt2p", "role": "customer" },
-  { "username": "customer19", "password": "c019nB6s", "role": "customer" },
-  { "username": "customer20", "password": "c020gL9r", "role": "customer" },
-  { "username": "customer21", "password": "c021dC7u", "role": "customer" },
-  { "username": "customer22", "password": "c022Tg1P", "role": "customer" },
-  { "username": "customer23", "password": "c023Ew5Q", "role": "customer" },
-  { "username": "customer24", "password": "c024pK3x", "role": "customer" },
-  { "username": "customer25", "password": "c025Uq2V", "role": "customer" },
-  { "username": "customer26", "password": "c026Rn7D", "role": "customer" },
-  { "username": "customer27", "password": "c027Fi4M", "role": "customer" },
-  { "username": "customer28", "password": "c028Qh8C", "role": "customer" },
-  { "username": "customer29", "password": "c029Le5F", "role": "customer" },
-  { "username": "customer30", "password": "c030Oo3Y", "role": "customer" },
-  { "username": "customer31", "password": "c031Wx7B", "role": "customer" },
-  { "username": "customer32", "password": "c032Rr5N", "role": "customer" },
-  { "username": "customer33", "password": "c033Tv4X", "role": "customer" },
-  { "username": "customer34", "password": "c034Ks6A", "role": "customer" },
-  { "username": "customer35", "password": "c035Lp1V", "role": "customer" },
-  { "username": "customer36", "password": "c036Fr7Z", "role": "customer" },
-  { "username": "customer37", "password": "c037Mj9T", "role": "customer" },
-  { "username": "customer38", "password": "c038Xz5U", "role": "customer" },
-  { "username": "customer39", "password": "c039As3N", "role": "customer" },
-  { "username": "customer40", "password": "c040We2K", "role": "customer" },
-  { "username": "customer41", "password": "c041Yq6D", "role": "customer" },
-  { "username": "customer42", "password": "c042Hn4G", "role": "customer" },
-  { "username": "customer43", "password": "c043Zm5P", "role": "customer" },
-  { "username": "customer44", "password": "c044Rp8J", "role": "customer" },
-  { "username": "customer45", "password": "c045Bt9L", "role": "customer" },
-  { "username": "customer46", "password": "c046Nj1S", "role": "customer" },
-  { "username": "customer47", "password": "c047Vb3C", "role": "customer" },
-  { "username": "customer48", "password": "c048Qw6E", "role": "customer" },
-  { "username": "customer49", "password": "c049Pf8R", "role": "customer" },
-  { "username": "customer50", "password": "c050Xc9T", "role": "customer" }
+  {
+    "username": "admin",
+    "password": "123456",
+    "role": "admin",
+    "percent": 1.0
+  },
+  {
+    "username": "customer1",
+    "password": "c001xgJ9",
+    "role": "customer",
+    "percent": 0.91
+  },
+  {
+    "username": "customer2",
+    "password": "c0023mLM",
+    "role": "customer",
+    "percent": 0.95
+  },
+  {
+    "username": "customer3",
+    "password": "c003nuTI",
+    "role": "customer",
+    "percent": 0.89
+  },
+  {
+    "username": "customer4",
+    "password": "c0045hrX",
+    "role": "customer",
+    "percent": 0.95
+  },
+  {
+    "username": "customer5",
+    "password": "c0059rCt",
+    "role": "customer",
+    "percent": 0.88
+  },
+  {
+    "username": "customer6",
+    "password": "c006iuGn",
+    "role": "customer",
+    "percent": 1.02
+  },
+  {
+    "username": "customer7",
+    "password": "c007FWoM",
+    "role": "customer",
+    "percent": 1.03
+  },
+  {
+    "username": "customer8",
+    "password": "c008d8Wi",
+    "role": "customer",
+    "percent": 0.9
+  },
+  {
+    "username": "customer9",
+    "password": "c009BWVm",
+    "role": "customer",
+    "percent": 0.91
+  },
+  {
+    "username": "customer10",
+    "password": "c010RXeA",
+    "role": "customer",
+    "percent": 0.97
+  },
+  {
+    "username": "customer11",
+    "password": "c011pvxZ",
+    "role": "customer",
+    "percent": 1.08
+  },
+  {
+    "username": "customer12",
+    "password": "c012Ire7",
+    "role": "customer",
+    "percent": 0.88
+  },
+  {
+    "username": "customer13",
+    "password": "c013yfhz",
+    "role": "customer",
+    "percent": 0.86
+  },
+  {
+    "username": "customer14",
+    "password": "c0140ORr",
+    "role": "customer",
+    "percent": 1.1
+  },
+  {
+    "username": "customer15",
+    "password": "c015OukF",
+    "role": "customer",
+    "percent": 0.88
+  },
+  {
+    "username": "customer16",
+    "password": "c016lzD2",
+    "role": "customer",
+    "percent": 1.07
+  },
+  {
+    "username": "customer17",
+    "password": "c017PBHA",
+    "role": "customer",
+    "percent": 0.94
+  },
+  {
+    "username": "customer18",
+    "password": "c018MJOS",
+    "role": "customer",
+    "percent": 1.02
+  },
+  {
+    "username": "customer19",
+    "password": "c0192ZPA",
+    "role": "customer",
+    "percent": 1.08
+  },
+  {
+    "username": "customer20",
+    "password": "c020krup",
+    "role": "customer",
+    "percent": 0.9
+  },
+  {
+    "username": "customer21",
+    "password": "c021j6Da",
+    "role": "customer",
+    "percent": 0.98
+  },
+  {
+    "username": "customer22",
+    "password": "c022NZWL",
+    "role": "customer",
+    "percent": 1.09
+  },
+  {
+    "username": "customer23",
+    "password": "c0235Itm",
+    "role": "customer",
+    "percent": 0.98
+  },
+  {
+    "username": "customer24",
+    "password": "c024PMFN",
+    "role": "customer",
+    "percent": 1.02
+  },
+  {
+    "username": "customer25",
+    "password": "c025iXtK",
+    "role": "customer",
+    "percent": 0.87
+  },
+  {
+    "username": "customer26",
+    "password": "c026qUdb",
+    "role": "customer",
+    "percent": 0.94
+  },
+  {
+    "username": "customer27",
+    "password": "c027uxdp",
+    "role": "customer",
+    "percent": 0.94
+  },
+  {
+    "username": "customer28",
+    "password": "c028sD8p",
+    "role": "customer",
+    "percent": 1.09
+  },
+  {
+    "username": "customer29",
+    "password": "c029Ndnf",
+    "role": "customer",
+    "percent": 1.07
+  },
+  {
+    "username": "customer30",
+    "password": "c030acvW",
+    "role": "customer",
+    "percent": 0.94
+  },
+  {
+    "username": "customer31",
+    "password": "c031uFRz",
+    "role": "customer",
+    "percent": 0.86
+  },
+  {
+    "username": "customer32",
+    "password": "c0320UIj",
+    "role": "customer",
+    "percent": 0.86
+  },
+  {
+    "username": "customer33",
+    "password": "c033bDnp",
+    "role": "customer",
+    "percent": 0.96
+  },
+  {
+    "username": "customer34",
+    "password": "c0346pB5",
+    "role": "customer",
+    "percent": 0.98
+  },
+  {
+    "username": "customer35",
+    "password": "c035mbXN",
+    "role": "customer",
+    "percent": 0.94
+  },
+  {
+    "username": "customer36",
+    "password": "c036fLaf",
+    "role": "customer",
+    "percent": 1.06
+  },
+  {
+    "username": "customer37",
+    "password": "c037EpDA",
+    "role": "customer",
+    "percent": 1.0
+  },
+  {
+    "username": "customer38",
+    "password": "c038sIZR",
+    "role": "customer",
+    "percent": 1.03
+  },
+  {
+    "username": "customer39",
+    "password": "c039UDP4",
+    "role": "customer",
+    "percent": 1.05
+  },
+  {
+    "username": "customer40",
+    "password": "c040Eebb",
+    "role": "customer",
+    "percent": 1.04
+  },
+  {
+    "username": "customer41",
+    "password": "c041WIzl",
+    "role": "customer",
+    "percent": 0.85
+  },
+  {
+    "username": "customer42",
+    "password": "c0420Tou",
+    "role": "customer",
+    "percent": 0.88
+  },
+  {
+    "username": "customer43",
+    "password": "c043RaTI",
+    "role": "customer",
+    "percent": 0.88
+  },
+  {
+    "username": "customer44",
+    "password": "c044z9Ua",
+    "role": "customer",
+    "percent": 1.07
+  },
+  {
+    "username": "customer45",
+    "password": "c045bKGP",
+    "role": "customer",
+    "percent": 0.88
+  },
+  {
+    "username": "customer46",
+    "password": "c046KbN8",
+    "role": "customer",
+    "percent": 0.87
+  },
+  {
+    "username": "customer47",
+    "password": "c047NzGv",
+    "role": "customer",
+    "percent": 0.9
+  },
+  {
+    "username": "customer48",
+    "password": "c048qxLg",
+    "role": "customer",
+    "percent": 1.07
+  },
+  {
+    "username": "customer49",
+    "password": "c049GS2i",
+    "role": "customer",
+    "percent": 1.06
+  },
+  {
+    "username": "customer50",
+    "password": "c050sjnW",
+    "role": "customer",
+    "percent": 0.96
+  },
+  {
+    "username": "customer51",
+    "password": "c051hevD",
+    "role": "customer",
+    "percent": 1.01
+  },
+  {
+    "username": "customer52",
+    "password": "c0526lkj",
+    "role": "customer",
+    "percent": 1.06
+  },
+  {
+    "username": "customer53",
+    "password": "c053XzAK",
+    "role": "customer",
+    "percent": 0.99
+  },
+  {
+    "username": "customer54",
+    "password": "c05467I2",
+    "role": "customer",
+    "percent": 0.98
+  },
+  {
+    "username": "customer55",
+    "password": "c055M6jQ",
+    "role": "customer",
+    "percent": 0.92
+  },
+  {
+    "username": "customer56",
+    "password": "c0563uWP",
+    "role": "customer",
+    "percent": 0.95
+  },
+  {
+    "username": "customer57",
+    "password": "c057Glhb",
+    "role": "customer",
+    "percent": 0.94
+  },
+  {
+    "username": "customer58",
+    "password": "c058C748",
+    "role": "customer",
+    "percent": 0.88
+  },
+  {
+    "username": "customer59",
+    "password": "c059ywW1",
+    "role": "customer",
+    "percent": 1.09
+  },
+  {
+    "username": "customer60",
+    "password": "c060mypa",
+    "role": "customer",
+    "percent": 0.95
+  },
+  {
+    "username": "customer61",
+    "password": "c061PFyz",
+    "role": "customer",
+    "percent": 0.86
+  },
+  {
+    "username": "customer62",
+    "password": "c062DsGj",
+    "role": "customer",
+    "percent": 0.98
+  },
+  {
+    "username": "customer63",
+    "password": "c063CyWS",
+    "role": "customer",
+    "percent": 0.94
+  },
+  {
+    "username": "customer64",
+    "password": "c064IMlf",
+    "role": "customer",
+    "percent": 0.87
+  },
+  {
+    "username": "customer65",
+    "password": "c065861k",
+    "role": "customer",
+    "percent": 1.08
+  },
+  {
+    "username": "customer66",
+    "password": "c066Siz2",
+    "role": "customer",
+    "percent": 0.91
+  },
+  {
+    "username": "customer67",
+    "password": "c067nn36",
+    "role": "customer",
+    "percent": 0.97
+  },
+  {
+    "username": "customer68",
+    "password": "c068RZBz",
+    "role": "customer",
+    "percent": 1.05
+  },
+  {
+    "username": "customer69",
+    "password": "c069ZggY",
+    "role": "customer",
+    "percent": 0.87
+  },
+  {
+    "username": "customer70",
+    "password": "c0709kb9",
+    "role": "customer",
+    "percent": 1.03
+  },
+  {
+    "username": "customer71",
+    "password": "c071kq0k",
+    "role": "customer",
+    "percent": 0.89
+  },
+  {
+    "username": "customer72",
+    "password": "c072YOwR",
+    "role": "customer",
+    "percent": 0.95
+  },
+  {
+    "username": "customer73",
+    "password": "c073W2ML",
+    "role": "customer",
+    "percent": 0.87
+  },
+  {
+    "username": "customer74",
+    "password": "c074zwUu",
+    "role": "customer",
+    "percent": 1.05
+  },
+  {
+    "username": "customer75",
+    "password": "c075CGrQ",
+    "role": "customer",
+    "percent": 1.0
+  },
+  {
+    "username": "customer76",
+    "password": "c076dqt7",
+    "role": "customer",
+    "percent": 0.99
+  },
+  {
+    "username": "customer77",
+    "password": "c0776MVd",
+    "role": "customer",
+    "percent": 1.03
+  },
+  {
+    "username": "customer78",
+    "password": "c078qV3y",
+    "role": "customer",
+    "percent": 0.9
+  },
+  {
+    "username": "customer79",
+    "password": "c079r26f",
+    "role": "customer",
+    "percent": 0.97
+  },
+  {
+    "username": "customer80",
+    "password": "c0807HNR",
+    "role": "customer",
+    "percent": 0.92
+  },
+  {
+    "username": "customer81",
+    "password": "c081zE0R",
+    "role": "customer",
+    "percent": 1.03
+  },
+  {
+    "username": "customer82",
+    "password": "c082oppf",
+    "role": "customer",
+    "percent": 1.0
+  },
+  {
+    "username": "customer83",
+    "password": "c0832Zjp",
+    "role": "customer",
+    "percent": 0.91
+  },
+  {
+    "username": "customer84",
+    "password": "c0843QDg",
+    "role": "customer",
+    "percent": 0.94
+  },
+  {
+    "username": "customer85",
+    "password": "c0854c5I",
+    "role": "customer",
+    "percent": 0.91
+  },
+  {
+    "username": "customer86",
+    "password": "c086O9Zd",
+    "role": "customer",
+    "percent": 0.89
+  },
+  {
+    "username": "customer87",
+    "password": "c087bpbm",
+    "role": "customer",
+    "percent": 1.0
+  },
+  {
+    "username": "customer88",
+    "password": "c0888FJF",
+    "role": "customer",
+    "percent": 1.0
+  },
+  {
+    "username": "customer89",
+    "password": "c089UpPD",
+    "role": "customer",
+    "percent": 1.07
+  },
+  {
+    "username": "customer90",
+    "password": "c090AkgB",
+    "role": "customer",
+    "percent": 0.95
+  },
+  {
+    "username": "customer91",
+    "password": "c091Y6xx",
+    "role": "customer",
+    "percent": 0.98
+  },
+  {
+    "username": "customer92",
+    "password": "c092ZnE4",
+    "role": "customer",
+    "percent": 0.99
+  },
+  {
+    "username": "customer93",
+    "password": "c093CwGM",
+    "role": "customer",
+    "percent": 0.97
+  },
+  {
+    "username": "customer94",
+    "password": "c094TwtD",
+    "role": "customer",
+    "percent": 1.1
+  },
+  {
+    "username": "customer95",
+    "password": "c0952hTZ",
+    "role": "customer",
+    "percent": 0.87
+  },
+  {
+    "username": "customer96",
+    "password": "c096bjYu",
+    "role": "customer",
+    "percent": 0.89
+  },
+  {
+    "username": "customer97",
+    "password": "c097ensf",
+    "role": "customer",
+    "percent": 0.87
+  },
+  {
+    "username": "customer98",
+    "password": "c098RSVL",
+    "role": "customer",
+    "percent": 0.94
+  },
+  {
+    "username": "customer99",
+    "password": "c099ER0A",
+    "role": "customer",
+    "percent": 0.89
+  },
+  {
+    "username": "customer100",
+    "password": "c1007Qlv",
+    "role": "customer",
+    "percent": 0.89
+  }
 ]
