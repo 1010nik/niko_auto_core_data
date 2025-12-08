@@ -3,7 +3,7 @@
     "username": "admin",
     "password": "123456",
     "role": "admin",
-    "percent": 1.2
+    "percent": .96
   },
   {
     "username": "customer1",
