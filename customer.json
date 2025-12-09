@@ -7,39 +7,39 @@
   },
   {
     "username": "customer1",
-    "password": "c001AgJ9",
+    "password": "c001xgJ9",
     "role": "customer",
-    "percent": .90
+    "percent": 0.91
   },
   {
     "username": "customer2",
     "password": "c0023mLM",
     "role": "customer",
-    "percent": 0.90
+    "percent": 0.95
   },
   {
     "username": "customer3",
     "password": "c003nuTI",
     "role": "customer",
-    "percent": 0.92
+    "percent": 0.89
   },
   {
     "username": "customer4",
     "password": "c0045hrX",
     "role": "customer",
-    "percent": 0.90
+    "percent": 0.95
   },
   {
     "username": "customer5",
     "password": "c0059rCt",
     "role": "customer",
-    "percent": 0.90
+    "percent": 0.88
   },
   {
     "username": "customer6",
-    "password": "c006iuJ9",
+    "password": "c006iuGn",
     "role": "customer",
-    "percent": 1.04
+    "percent": 1.02
   },
   {
     "username": "customer7",
