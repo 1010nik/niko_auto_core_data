@@ -1,4 +1,4 @@
- [
+[
   {
     "username": "admin",
     "password": "123456",
@@ -7,7 +7,7 @@
   },
   {
     "username": "customer1",
-    "password": "c001AgJ9",
+    "password": "c001xgJ9",
     "role": "customer",
     "percent": 0.91
   },
