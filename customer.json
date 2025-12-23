@@ -7,13 +7,13 @@
   },
   {
     "username": "customer1",
-    "password": "c001AgJ9",
+    "password": "c001AgJc",
     "role": "customer",
     "percent": 0.92
   },
   {
     "username": "customer2",
-    "password": "c0023mLM",
+    "password": "c0023mLC",
     "role": "customer",
     "percent": 0.95
   },
@@ -21,7 +21,7 @@
     "username": "customer3",
     "password": "c003nuTI",
     "role": "customer",
-    "percent": 0.89
+    "percent": 0.95
   },
   {
     "username": "customer4",
@@ -39,7 +39,7 @@
     "username": "customer6",
     "password": "c006iuGn",
     "role": "customer",
-    "percent": 1.02
+    "percent": 1.06
   },
   {
     "username": "customer7",
